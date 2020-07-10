@@ -1,0 +1,21 @@
+.company {
+    margin-bottom:0;
+}
+
+.position {
+    margin-left: 1.4rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    font-style: italic;
+    display: inline-block;
+}
+
+.items {
+    margin-top: 0.3rem;
+}
+
+.date {
+    display: inline-block;
+    float: right;
+    margin: 0;
+}

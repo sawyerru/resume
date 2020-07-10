@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule  } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
@@ -10,6 +10,7 @@ import { EducationComponent } from './components/body/education/education.compon
 import { ExperiencesComponent } from './components/body/experiences/experiences.component';
 import { ProjectsComponent } from './components/body/projects/projects.component';
 import { InterestsComponent } from './components/body/interests/interests.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -33,8 +34,9 @@ import { InterestsComponent } from './components/body/interests/interests.compon
       {path: '', redirectTo: '/about-me', pathMatch: 'full'},
       {path: '**', component: AboutMeComponent}
     ]),
+    BrowserAnimationsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
