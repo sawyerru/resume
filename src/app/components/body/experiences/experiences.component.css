@@ -15,7 +15,11 @@
 }
 
 .date {
-    display: inline-block;
+    display: block;
     float: right;
     margin: 0;
+    background-color: #9facc2;
+    border-radius: 3px;
+    padding-left: 3px;
+    padding-right: 3px
 }
