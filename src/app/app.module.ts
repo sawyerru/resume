@@ -11,6 +11,7 @@ import { ExperiencesComponent } from './components/body/experiences/experiences.
 import { ProjectsComponent } from './components/body/projects/projects.component';
 import { InterestsComponent } from './components/body/interests/interests.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ContactComponent } from './components/body/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ProjectsComponent,
     InterestsComponent,
     AboutMeComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
@@ -30,7 +32,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
       {path: 'education', component: EducationComponent},
       {path: 'experiences', component: ExperiencesComponent},
       {path: 'projects', component: ProjectsComponent},
-      {path: 'hobbies', component: InterestsComponent},
+      {path: 'interests', component: InterestsComponent},
+      {path: 'contact', component: ContactComponent},
       {path: '', redirectTo: '/about-me', pathMatch: 'full'},
       {path: '**', component: AboutMeComponent}
     ]),

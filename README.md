@@ -54,5 +54,11 @@ Also add a new route for your new component:
 Run `ng build` to build the project. 
 Change the angular.json file and for the `outputPath` variable change the value to `docs/`
 The build artifacts will be stored in the `docs/` directory. Use the `--prod` flag for a production build.
+#### To update website content
+Enter the following in the Command Line
+`ng build --prod --baseHref="https://USERNAME.github.io/resume/`
+`git add *`
+`git commit -m "updated build on DATE`
+`git push -u origin master`
 
 ## 

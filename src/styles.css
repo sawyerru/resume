@@ -1,5 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-/* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
 body {
@@ -15,7 +14,7 @@ body {
 }
 
 .container {
-    /* margin-left: 15rem;
-    margin-right: 15rem; 
-    margin-top: 2rem; */
+    /* You can add styles here for your content boxes */
+    /* It is advised to not change margin and padding properties
+     due to issues with viewing the website on mobile */
 }
