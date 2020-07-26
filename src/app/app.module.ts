@@ -28,12 +28,16 @@ import { ContactComponent } from './components/body/contact/contact.component';
   imports: [
     BrowserModule,
     RouterModule.forRoot([
+      // This is to handle routing for the different tabs
+      // 'path' variable will need to match 'routerLink' in body.component.html
       {path: 'about-me', component: AboutMeComponent},
       {path: 'education', component: EducationComponent},
       {path: 'experiences', component: ExperiencesComponent},
       {path: 'projects', component: ProjectsComponent},
       {path: 'interests', component: InterestsComponent},
       {path: 'contact', component: ContactComponent},
+      // Add new buttons above me
+      // the bottom two are for error handling 
       {path: '', redirectTo: '/about-me', pathMatch: 'full'},
       {path: '**', component: AboutMeComponent}
     ]),
