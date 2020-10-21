@@ -44,8 +44,9 @@ obviously you don't want my face and information on there so it's time to change
 
 Below are a few things to get you started!
 
+### Running the Project
+Run `npm install` to install all required dependcies for the project
 
-### Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
